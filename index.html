@@ -7,12 +7,123 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div>
-        <h1>hello abdelrahman</h1>
-    </div>
-    <div>hello sayed</div>
-    <div>good morning ahmed</div>
-    <h1>Hello partner</h1>
+   <h1 id="title">freeCodeCamp Survey Form
+</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform
+</p>
+<form id="survey-form">
+  <label for="name" id="name-label">Name</label>
+  </br>
+  <input id="name" type="text" name="name" placeholder="name-label" required >
+  </br>
+  <label for="email" id="email-label">Email</label>
+</br>
+  <input  type="email"id="email"pattern=".+@globex\.com" placeholder="name-label" required>
+</br>
+<label for="age" id="number-label">Age(optional)</label>
+  </br>
+  <input id="number" type="number" name="age"placeholder="Age" min="16" max="100">
+</br>
+<label for="dropdown_label"
+        >Which option best describes your current role?"</label
+      ><br />
+      <select name="dropdown" id="dropdown" placeholder="Select current role">
+        <option value="student">Student</option>
+        <option value="fullTimeJob">Full Time Job</option>
+        <option value="fullTimeLearner">Full Time Learner</option>
+        <option value="preferNotToSay">Prefer not to say</option>
+        <option value="Other">Other</option>
+        </select>
+</br>
+ <input type="radio" id="name" name="drone" value="defenitly"
+         checked>
+  <label for="defenitly">Defenitly</label>
+</br>
+<input type="radio" id="name" name="drone" value="maybe"
+         checked>
+<label for="maybe">may be</label>
+</br>
+<input type="radio" id="name" name="drone" value="notsure"
+         checked>
+<label for="notsure">not sure</label>
+</br>
+<label for="checkboxes"
+        >What would you like to see improved? (Check all that apply)</label
+      ><br />
+      <input
+        type="checkbox"
+        id="improvements1"
+        name="frontEnd"
+        value="front-end"
+      />
+<label for="Back-end Projects
+">Front-end Projects</label><br />
+<input
+        type="checkbox"
+        id="improvements1"
+        name="Back-end Projects
+"
+        value="Back-end Projects
+"
+      />
+<label for="Data Visualization
+">Back-end Projects
+</label><br />
+<input
+        type="checkbox"
+        id="improvements1"
+        name="Data Visualization
+"
+        value="Data Visualization
+"
+      />
+<label for="Challenges
+">Data Visualization
+</label><br />
+<input
+        type="checkbox"
+        id="improvements1"
+        name="Challenges
+"
+        value="Challenges
+"
+      />
+<label for="Open Source Community
+">Challenges
+</label><br />
+<input
+        type="checkbox"
+        id="improvements1"
+        name="Open Source Community
+"
+        value="Open Source Community
+"
+      />
+<label for="front-end">Open Source Community
+</label><br />
+<input type="checkbox" id="improvements7" name="videos" value="videos" />
+      <label for="videos">Videos</label><br />
+      <input type="checkbox" id="improvements8" name="meet" value="meet" />
+      <label for="meet">City Meetups</label><br />
+      <input type="checkbox" id="improvements9" name="wiki" value="wiki" />
+      <label for="wiki">Wiki</label><br />
+      <input type="checkbox" id="improvements10" name="forum" value="forum" />
+      <label for="forum">Forum</label><br />
+      <input
+        type="checkbox"
+        id="improvements11"
+        name="addCourses"
+        value="addCourses"
+      />
+      <label for="addCourses">Additional Courses</label><br />
+<textarea id="textarea" rows="10"></textarea>
+  </br>
+<input id="submit" type="submit" value="submit">
+
+
+
+
+
+</form>
 </body>
 </html>
